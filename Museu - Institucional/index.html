@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="normalize.css">
+    <!--[if lt IE 9]>
+	<script src="shiv.js"></script><![endif]-->
+        <title>Museu Nacional</title>
+</head>
+<body>
+    <div id="container"> <!--INÍCIO CONTAINER-->
+        <header> <!--INÍCIO HEADER-->
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+            </div>
+        
+    <nav> <!--INÍCIO NAV-->
+        <ul>
+            <li> <a href="">Home</a></li>
+            <li> <a href="">Exposições</a></li>
+            <li> <a href="">Pesquisa</a></li>
+            <li> <a href="">Acervo</a></li>
+            <li> <a href="">Vídeos</a></li>
+            <li> <a href="">Fotos</a></li>
+            <li> <a href="">Contato</a></li>
+        </ul>
+    </nav> <!--FINAL NAV-->
+</header> <!--FINAL HEADER-->
+
+<div id="principal"> <!--INÍCIO PRINCIPAL-->
+
+    <div id="conteudo"> <!--INÍCIO CONTEÚDO-->
+        <section id="capa"> 
+            <img src="imagens/museu.png">
+        </section>
+
+        <section id="postagens"> <!--INÍCIO SEÇÃO POSTAGENS-->
+            <article id="video">
+                <h3>Vídeo: conheça o museu</h3>
+                <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
+            <article id="mapa">
+                <h3>Mapa: encontre o museu</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2063112591054!2d-43.2265289!3d-22.90576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1642790527044!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </article>
+            <article id="exposicoes">
+                <h3>Exposições</h3>
+                <ul>
+                    <li> <a href="">Os assustadores insetos</a></li>
+                    <li> <a href="">O crânio de Luzia, a mulher mais antiga do Brasil</a></li>
+                    <li> <a href="">Preguiça gigante e tigre-dentes-de-sabre</a></li>
+                    <li> <a href="">Plantas do Brasil Central</a></li>
+                    <li> <a href="">Teresa Cristina: A Imperatriz Arqueóloga</a></li>
+                    <li> <a href="">Arte com Dinossauros: Paleoarte</a></li>
+                    <li> <a href=""><strong>Veja todos (65)</strong></a></li>
+                </ul>
+            </article>
+            <article id="historia">
+            <h3>200 anos de história</h3>
+            <p>A criação do Museu Nacional fez parte de uma série de iniciativas tomadas por D. João VI para promover o desenvolvimento da arte, ciência e intelectualidade no Brasil. 
+                 O museu não possuía acervo, e por isso foi aberto com uma pequena coleção doada pelo próprio d. João; esta se compunha de peças de arte, gravuras, objetos de mineralogia, artefatos indígenas, animais empalhados e produtos naturais.</p>
+                <a href=""><strong>Leia mais</strong></a>
+
+            </article>
+
+
+        </section> <!--FINAL SEÇÃO POSTAGENS-->
+    </div> <!--FINAL CONTEÚDO-->
+
+    <aside> <!--INÍCIO ASIDE-->
+        <section id="depoimento">
+            <img src="imagens/depoimento.png">
+         </section>
+         <section id="visita"> <!--INÍCIO SEÇÃO VISITA-->
+            <h4>Faça uma visita</h4>
+            <form>
+                <fieldset>
+                    <legend>Selecione uma data</legend>
+                    <label for="data">Data</label>
+                    <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                    <label for="qtd">Qtd pessoas</label>
+                    <input style="width: 30px;" class="campo" type="text" id="qtd" value="1">
+                </fieldset>
+
+                <input class="botao" type="submit" value="Verificar disponibilidade">
+            </form>
+         </section> <!--FINAL SEÇÃO VISITA-->
+         <section id="galeria">
+             <h4>Galeria de fotos</h4>
+             <a href="">
+             <img src="imagens/imagem1.jpg" height="93" width="93" alt="Descrição imagem"></a>
+             <a href="">
+             <img src="imagens/imagem2.jpg" height="93" width="93" alt="Descrição imagem"></a>
+             <a href="">
+             <img src="imagens/imagem3.jpg" height="93" width="93" alt="Descrição imagem"></a>
+             <a href="">
+             <img src="imagens/imagem4.jpg" height="93" width="93" alt="Descrição imagem"></a>
+
+         </section>
+    </aside> <!--FINAL ASIDE-->
+ <footer> <!--INÍCIO RODAPÉ-->
+    <p>
+        <a href=""> Home</a>
+        <a href=""> Exposições</a>
+        <a href=""> Pesquisa</a>
+        <a href=""> Acervo</a>
+        <a href=""> Vídeos</a>
+        <a href=""> Fotos</a>
+        <a href=""> Contato</a>
+    </p>
+    <p>
+        2019 <a href="">Museu Nacional</a> - Todos os direitos reservados.
+    </p>
+ </footer> <!--FINAL RODAPÉ-->
+</div> <!--FINAL PRINCIPAL-->
+</div> <!--FINAL CONTAINER--> 
+</body>
+</html>
